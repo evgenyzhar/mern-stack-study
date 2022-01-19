@@ -1,0 +1,24 @@
+{
+  "name": "00step-mern",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "Evgeny Zhartovskyi <goodeveryhour@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
