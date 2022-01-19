@@ -4,7 +4,8 @@
   "description": "Mern stack",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "keywords": [
     "mongo",
@@ -15,10 +16,12 @@
   "author": "Evgeny Zhartovskyi <goodeveryhour@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.7",
     "express": "^4.17.2",
     "mongoose": "^6.1.7"
   },
   "devDependencies": {
+    "concurrently": "^7.0.0",
     "nodemon": "^2.0.15"
   }
 }
